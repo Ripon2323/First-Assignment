@@ -16,11 +16,10 @@ section{
     padding-bottom: 150px;    
 }
 .nav{
-    background-color: orange;
+    background-color:tomato;
     padding: 1% 7%;
     text-align: center;
     height: 80px;
-    
 }
 .navbar{
     display: flex;
@@ -46,21 +45,25 @@ section{
     width: 40%;
     padding-left: 2%;
     margin-left: 5%;
+  
 }
 .half-width h1{
-    font-size: 50px;
+    font-size: 40px;
     margin-top: 100px;
-    color: #575757;
+    color: #241212;
+    
     
 }
 .half-width span{
-    color:#FB934A;
+    color:#b65611;
 }
 .half-width p{
-    font-size: 30px;
-    color: #A4A4A4;
+    font-size: 20px;
+    color: #1d0404;
     margin-top: 20px;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .link-button{
     background: linear-gradient(45deg, lightsalmon, tomato);
@@ -98,8 +101,8 @@ section{
            font-family: Arial, Helvetica, sans-serif;
            
         }
-        .blog{
-
+        .blog-banner{
+              
         }
         .blog-content{
             text-align: center;
@@ -115,6 +118,68 @@ section{
             width: 40%;
             margin-left: 30%;
             font-family: Arial, Helvetica, sans-serif;
+            padding-bottom: 40px;
             
         }
         
+        .blog-item{
+            display: flex;
+            margin-left: 5%;
+            padding-left: 5%;
+            border: 5px;
+           
+                     
+            
+        }
+        .recipie-content{
+            width: 25%;
+            border-radius: 20px;
+            box-sizing: border-box;
+            box-shadow: 10px 10px 40px gray;
+            margin-left: 20px;
+            margin-right: 40px;
+            padding: 20px 30px;
+        }
+        .recipie-1{
+           height:400px;
+           padding-left: 5%;
+            
+        }
+        .recipie-2{
+            height:400px;
+            padding-left: 5%;
+             
+         }
+         .recipie-3{
+            height:400px;
+            padding-left: 5%;
+             
+         }
+        .recipie-img{
+            height: 200px;
+            width: 200px;
+        }
+        .recipie p{
+            padding: 10px;
+        }
+        .footer-banner{
+            height:0px;
+        }
+        .footer{
+            background-color: #0B0D17;
+            height: 150px;
+        }
+        .footer h1{
+            text-align: center;
+            color: #5B5B5B;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 20px;
+        }
+        .footer span{
+            color: #FB974C;
+        }
+        .footer p{
+            text-align: center;
+            color: rgb(187, 159, 159);
+            font-family: Arial, Helvetica, sans-serif;
+        }
